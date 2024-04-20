@@ -1,0 +1,16 @@
+[[datasets]]
+resolution = 1024
+batch_size = 1
+bucket_no_upscale = true
+enable_bucket = true
+caption_extension = '.txt'
+keep_tokens = 1
+
+[[datasets.subsets]]
+image_dir = '/data/asuken/train/'
+num_repeats = 4
+color_aug	 = true
+flip_aug = true
+random_crop = true
+shuffle_caption = true
+# caption_prefix = "aaaa"

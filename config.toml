@@ -1,0 +1,40 @@
+[general]
+seed = 99
+pretrained_model_name_or_path = "/app/models/animagine-xl-3.0.safetensors"
+save_model_as = "safetensors"
+xformers = true
+mixed_precision = "bf16"
+save_precision = "bf16"
+
+[network]
+# SDXLはテキストエンコーダーを学習せずにUnetのみ
+network_train_unet_only = true
+# cache_text_encoder_outputs = true
+network_module = "networks.lora"
+
+[optimizer]
+optimizer_type = "AdamW"
+learning_rate = 1e-4
+lr_scheduler = "cosine_with_restarts"
+lr_scheduler_num_cycles = 100
+network_dim = 16 #この値を変化させる (2,4,8,16,32,64,128,256)
+network_alpha = 1
+network_args = ["conv_dim=8"]
+
+[training]
+save_every_n_epochs = 10
+# max_train_steps = 100
+max_train_epochs = 1000
+output_dir = "/data/asuken/output/"
+output_name = "asuken"
+
+[memory]
+# trueにすると削減
+gradient_checkpointing = true
+# falseにすると削減
+persistent_data_loader_workers = false
+
+[sample]
+sample_every_n_epochs = 10
+sample_sampler = "k_euler_a"
+sample_prompts = "/data/asuken/sample_prompt.txt"
