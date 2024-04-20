@@ -25,8 +25,8 @@ network_args = ["conv_dim=8"]
 save_every_n_epochs = 10
 # max_train_steps = 100
 max_train_epochs = 1000
-output_dir = "/data/asuken/output/"
-output_name = "asuken"
+output_dir = "/data/ebifly/output/"
+output_name = "ebifly"
 
 [memory]
 # trueにすると削減
@@ -37,4 +37,4 @@ persistent_data_loader_workers = false
 [sample]
 sample_every_n_epochs = 10
 sample_sampler = "k_euler_a"
-sample_prompts = "/data/asuken/sample_prompt.txt"
+sample_prompts = "/data/ebifly/sample_prompt.txt"

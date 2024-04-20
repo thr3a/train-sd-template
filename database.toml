@@ -7,7 +7,7 @@ caption_extension = '.txt'
 keep_tokens = 1
 
 [[datasets.subsets]]
-image_dir = '/data/asuken/train/'
+image_dir = '/data/ebifly/train/'
 num_repeats = 4
 color_aug	 = true
 flip_aug = true

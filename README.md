@@ -1,7 +1,7 @@
-python tools/resize_images_to_resolution.py --max_resolution 1024x1024 --save_as_png --interpolation lanczos4 --copy_associated_files /data/asuken/orig /data/asuken/train/
+python tools/resize_images_to_resolution.py --max_resolution 1024x1024 --save_as_png --interpolation lanczos4 --copy_associated_files /data/ebifly/orig /data/ebifly/train/
 
 # 学習
-accelerate launch --num_cpu_threads_per_process 8 sdxl_train_network.py --config_file=/data/asuken/config.toml --dataset_config /data/asuken/database.toml
+accelerate launch --num_cpu_threads_per_process 8 sdxl_train_network.py --config_file=/data/ebifly/config.toml --dataset_config /data/ebifly/database.toml
 
 # memo
 ファイル名をランダムにする

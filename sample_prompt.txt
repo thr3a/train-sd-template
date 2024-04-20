@@ -1,9 +1,9 @@
 # --w WIDTH --h HEIGHT --l CFG_SCALE --s STEP_COUNT --d SEED
 # prompt 1
-masterpiece, best quality, asuken, 1girl, solo, bikini, smile,blue sky, ocean, beach, looking back --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1001
+masterpiece, best quality, ebifly, 1girl, solo, bikini, smile,blue sky, ocean, beach, looking back --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1001
 # prompt 2
-# masterpiece, best quality, asuken, 1girl, solo, bikini, smile,blue sky, ocean, beach, looking back --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1002
+# masterpiece, best quality, ebifly, 1girl, solo, bikini, smile,blue sky, ocean, beach, looking back --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1002
 # prompt 3
-# masterpiece, best quality, asuken, 1girl, solo, bikini, smile,blue sky, ocean, beach, looking back --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1003
+# masterpiece, best quality, ebifly, 1girl, solo, bikini, smile,blue sky, ocean, beach, looking back --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1003
 # prompt 4
-# masterpiece, best quality, asuken, 1girl, solo, bikini, smile,blue sky, ocean, beach, looking back --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1004
+# masterpiece, best quality, ebifly, 1girl, solo, bikini, smile,blue sky, ocean, beach, looking back --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1004
