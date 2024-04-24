@@ -4,9 +4,21 @@ python tools/resize_images_to_resolution.py --max_resolution 1024x1024 --save_as
 accelerate launch --num_cpu_threads_per_process 8 sdxl_train_network.py --config_file=/data/ebifly/config.toml --dataset_config /data/ebifly/database.toml
 
 # memo
-ファイル名をランダムにする
+```bash
+# ファイル名をランダムにする
 find . -type f -iname "*.png" -exec bash -c 'mv "$0" "${0%/*}/$(head /dev/urandom | tr -dc "0-9" | head -c 6).png"' {} \;
+```
 
 ```
 blonde hair, blonde eyes
+```
+
+```bash
+for png_file in *.png; do
+    # txtファイル名をpngの拡張子をtxtに置き換えて作成
+    txt_file="${png_file%.png}.txt"
+    
+    # 指定された内容をtxtファイルに書き込む
+    echo "panko deep-fried shrimp" > "$txt_file"
+done
 ```
