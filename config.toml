@@ -14,7 +14,7 @@ network_module = "networks.lora"
 
 [optimizer]
 optimizer_type = "AdamW"
-learning_rate = 1e-4
+learning_rate = 1e-5
 lr_scheduler = "cosine_with_restarts"
 lr_scheduler_num_cycles = 100
 network_dim = 8 #この値を変化させる (2,4,8,16,32,64,128,256)
