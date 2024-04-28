@@ -1,6 +1,6 @@
 [general]
 seed = 99
-pretrained_model_name_or_path = "/app/models/Juggernaut-X-RunDiffusion-NSFW.safetensors"
+pretrained_model_name_or_path = "/app/models/animagine-xl-3.1.safetensors"
 save_model_as = "safetensors"
 xformers = true
 mixed_precision = "bf16"
@@ -14,7 +14,7 @@ network_module = "networks.lora"
 
 [optimizer]
 optimizer_type = "AdamW"
-learning_rate = 1e-5
+learning_rate = 1e-4
 lr_scheduler = "cosine_with_restarts"
 lr_scheduler_num_cycles = 100
 network_dim = 8 #この値を変化させる (2,4,8,16,32,64,128,256)

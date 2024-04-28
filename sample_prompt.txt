@@ -1,6 +1,6 @@
 # --w WIDTH --h HEIGHT --l CFG_SCALE --s STEP_COUNT --d SEED
 # prompt 1
-masterpiece, best quality, a image of panko deep-fried shrimp on a white plate,delicious,food photography,ultra detailed --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1001
+masterpiece, best quality, a image of shrimp tempura on a white plate,delicious,food photography,ultra detailed --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1001
 # prompt 2
 # masterpiece, best quality, ebifly --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1002
 # prompt 3

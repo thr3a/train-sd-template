@@ -19,6 +19,8 @@ for png_file in *.png; do
     txt_file="${png_file%.png}.txt"
     
     # 指定された内容をtxtファイルに書き込む
-    echo "panko deep-fried shrimp" > "$txt_file"
+    echo "ebifurai,no humans,black background,simple background" > "$txt_file"
 done
 ```
+
+tempura,shrimp tempura,shrimp
