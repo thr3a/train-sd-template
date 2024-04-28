@@ -1,8 +1,8 @@
 # --w WIDTH --h HEIGHT --l CFG_SCALE --s STEP_COUNT --d SEED
 # prompt 1
-masterpiece, best quality, a image of shrimp tempura on a white plate,delicious,food photography,ultra detailed --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1001
+very aesthetic, absurdres, masterpiece, best quality,ebifurai on a white plate, no humans, shrimp tempura, blurry background, food, salad, lemon, table --n (low quality:1.3), (worst quality:1.3) --w 1024 --h 1024 --l 7 --s 20 --d 1001
 # prompt 2
-# masterpiece, best quality, ebifly --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1002
+very aesthetic, absurdres, masterpiece, best quality, 1girl, solo focus, table, ebifurai on a white plate, shrimp tempura, indoors, pov across table, white hair, short sleeves, wide shot --n (low quality:1.3), (worst quality:1.3) --w 1024 --h 1024 --l 7 --s 20 --d 1001
 # prompt 3
 # masterpiece, best quality, ebifly --n (low quality:1.2), (worst quality:1.2) --w 1024 --h 1024 --l 7 --s 20 --d 1003
 # prompt 4
