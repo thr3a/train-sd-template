@@ -3,6 +3,7 @@ seed = 99
 pretrained_model_name_or_path = "/app/models/animagine-xl-3.0.safetensors"
 save_model_as = "safetensors"
 xformers = true
+# sdpa = true
 mixed_precision = "bf16"
 save_precision = "bf16"
 
