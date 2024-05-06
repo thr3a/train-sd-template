@@ -24,3 +24,13 @@ done
 ```
 
 tempura,shrimp tempura,shrimp
+
+
+# v2
+タグ修正、画像ファイル変更
+
+# v3
+AdamW8bit
+
+# v4
+batch=4

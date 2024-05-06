@@ -2,8 +2,6 @@
 seed = 99
 pretrained_model_name_or_path = "/app/models/animagine-xl-3.1.safetensors"
 save_model_as = "safetensors"
-xformers = true
-# sdpa = true
 mixed_precision = "bf16"
 save_precision = "bf16"
 
@@ -14,13 +12,14 @@ network_train_unet_only = true
 network_module = "networks.lora"
 
 [optimizer]
-optimizer_type = "AdamW"
-learning_rate = 1e-4
+# optimizer_type = "AdamW"
+optimizer_type = "AdamW8bit"
+learning_rate = 5e-4
 lr_scheduler = "cosine_with_restarts"
 lr_scheduler_num_cycles = 100
 network_dim = 8 #この値を変化させる (2,4,8,16,32,64,128,256)
 network_alpha = 1
-network_args = ["conv_dim=8"]
+# network_args = ["conv_dim=8"]
 
 [training]
 save_every_n_epochs = 10
@@ -30,10 +29,13 @@ output_dir = "/data/ebifly/output/"
 output_name = "ebifly"
 
 [memory]
+xformers = true
+# sdpa = true
 # trueにすると削減
 gradient_checkpointing = true
 # falseにすると削減
 persistent_data_loader_workers = false
+fp8_base = true
 
 [sample]
 sample_every_n_epochs = 10
